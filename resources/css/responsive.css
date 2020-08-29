@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1200px){
+    .header-text h1{
+        font-size: 25rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .row{
+        width: 90rem;
+    }
+    .header-text h1{
+        font-size: 20rem;
+    }
+    .skill-section .skills{
+        width: 45rem;
+    }
+    .skill-section .col:first-child{
+        margin-top: 13rem;
+    }
+    html{
+        font-size: 60.5%;
+    }
+    .about-section .profile{
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 780px){
+    .row{
+        width: 70rem;
+    }
+    .main-nav li{
+        display: none;
+    }
+    .header-text h1{
+        font-size: 18rem;
+        margin-bottom: 2.5rem;
+    }
+    .about-section .profile{
+        margin-top: 20rem;
+        width: 98%;
+    }
+    .services-section .box p{
+        width: 20rem;
+    }
+    .skill-description{
+        width: 38rem;
+        padding-right: 2rem;
+    }
+    .skill-section .skills{
+        width: 38rem;
+        height: 45rem;
+    }
+    .portfolio-image{
+        width:18rem;
+    }
+    .testimonial-section .name-description{
+        width:20rem;
+    }
+    .contact-section{
+        background-size: 220%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .row{
+        width: 50rem;
+    }
+    html{
+        font-size: 50.5%;
+    }
+    .header-text h1{
+        font-size: 12rem;
+        margin-bottom: 4rem;
+    }
+    .about-section .profile{
+        margin-top: 8rem;
+        width: 50rem;
+    }
+    .about-section{
+        text-align: center;
+    }
+    .services-section .box p{
+        width: 50rem;
+    }
+    .skill-section .col:first-child{
+        margin-top: -20rem;
+    }
+    .skill-section .col:last-child{
+        margin-top: 15rem;
+    }
+    .skill-section{
+        text-align: center;
+    }
+    .skill-description{
+        text-align: center;
+        width: 50rem;
+    }
+    .skill-section .skills{
+        width: 50rem;
+    }
+    .portfolio-image{
+        width:50rem;
+    }
+    .testimonial-section .name-description{
+        width:50rem;
+    }
+   
+    .contact-section{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-size: 400%;
+    }
+    .header-text{
+        top: 40%;
+    }
+    .header-text h3{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 414px){
+    .row{
+        width: 48rem;
+    }
+    html{
+        font-size: 48%;
+    }
+}

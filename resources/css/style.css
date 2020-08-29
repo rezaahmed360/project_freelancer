@@ -1,0 +1,341 @@
+/* BASIC SETUP */
+/* ========================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
+}
+ul li{
+    list-style-type: none;
+}
+p{
+    font-size: 1.6rem;
+}
+/* REUSABLE COMPONENT */
+/* ============================ */
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1,
+h2{
+    font-family: 'Kristi', cursive;
+}
+.row{
+    width: 114rem;
+    margin: auto;
+}
+/* BUTTON */
+.btn,
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+    color: #ff00ae;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 1.3rem 3rem;
+    font-weight: 900;
+}
+h2{
+    font-size: 10rem;
+    font-weight: 400;
+    color:#4d0035;
+    text-align: center;
+}
+h5{
+    color: #4d0035;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+/* HEADER SECTION */
+/* ============================= */
+header{
+    background: url(img/header-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+.logo{
+    float: left;
+    margin-top: 2rem;
+}
+.main-nav{
+    float: right;
+    margin-top: 1rem;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 3rem;
+
+}
+.main-nav li a{
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 4;
+    font-size: 1.6rem;
+}
+.main-nav li:hover a{
+    color: #fff;
+    transition: 0.5s;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-text h1{
+    color: #fff;
+    font-size: 30rem;
+    text-shadow: 0 8px 30px rgba(255,0,174,.49);
+    line-height: 1;
+    font-weight: 400;
+}
+.header-text h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 6rem;
+    line-height: 1;
+}
+.btn-hero:link,
+.btn-hero:visited{
+    background: yellow;
+}
+.btn-hero:hover{
+    background: #fff;
+    transition: 0.5s;
+}
+/* ABOUT SECTION */
+/* ========================== */
+.about-section .profile{
+    margin-top: 5rem;
+    width: 50rem;
+}
+.about-section .box h2{
+    color: #4d0035;
+    font-size: 12rem;
+    font-weight: 400;
+}
+.about-section .box h5{
+    color: #4d0035;
+    font-size: 1.8rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.about-section .little-description{
+    color: #a67f9a;
+    line-height: 1.81;
+    margin-bottom: 2rem;
+}
+/* SERVICES SECTION */
+/* ========================== */
+.services-section{
+    text-align: center;
+}
+.services-section h2{
+    color:#4d0035;
+    text-transform: capitalize;
+    font-size: 10rem;
+}
+
+.description{
+    width: 50rem;
+    margin: auto;
+    color: #a67f9a;
+    text-align: center;
+}
+.services-section .box{
+    margin-top: 8rem;
+}
+.services-section .box h5{
+    color: #4d0035;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-bottom: 20px;
+}
+.services-section .box p{
+    color:#a67f9a;
+    line-height: 1.81;
+    width: 30rem;
+    margin:auto;
+    
+}
+.services-section .col:nth-child(4){
+    margin-left: 0;
+}
+
+/* SKILL SECTION */
+/* ========================== */
+.skill-section{
+    background: url(img/bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 30rem 0 30rem;
+    
+}
+.skill-section h2{
+    color: #fff;
+}
+.skill-section .col:first-child{
+    margin-top: 20rem;
+    text-align: right;
+    padding-right: 4rem;
+    position: relative;
+}
+.skill-section .col{
+    margin-top: -10rem;
+}
+.skill-section p{
+    color: #fff;
+    line-height: 1.81;
+    margin-top: 2rem;
+}
+.skill-description{
+    width: 50rem;
+    right: 0;
+    position: absolute;
+    padding-right: 4rem;
+}
+/* PORTFOLIO SECTION */
+/* ========================== */
+.portfolio-section{
+
+}
+.portfolio-image{
+    width:25rem;
+}
+.portfolio-section .col:nth-child(5){
+    margin-left: 0;
+}
+/* TESTIMONIAL SECTION */
+/* ========================== */
+.testimonial-section h2{
+    margin-top: 4rem;
+}
+.testimonial-section{
+    text-align: center;
+}
+.testimonial-section .name-description{
+    width: 30rem;
+    margin: auto;
+    color: #a67f9a;
+    line-height: 1.81;
+}
+.testimonial-section .testimonial-image{
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 27px 38px -21px rgba(255,0,174,.5);
+    margin-bottom: 5rem;
+}
+.testimonial-section .box{
+    margin-top: 8rem;
+}
+.testimonial-section h5{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.testimonial-section h6{
+    color: #4d0035;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+/* contact SECTION */
+/* ========================== */
+.contact-section{
+    background: url(img/bg3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.contact-section h2{
+    color: #fff;
+}
+.contact-section .row:nth-child(2){
+    background: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    border-radius: 2rem;
+
+}
+.contact-section form input{
+    display: block;
+}
+.contact-section h3{
+    color: #4d0035;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea{
+    background: #FAFAFA;
+    border: .1rem solid #eaeaea;
+    width: 90%;
+    color: #666;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.81;
+    border-radius: .2rem;
+    margin-bottom: 2rem;
+}
+.contact-section h4{
+    font-size: 2.3rem;
+    color: #4d0035;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.contact-section p{
+    color: #a67f9a;
+    margin-bottom: 4rem;
+}
+.contact-section .btn{
+    background: #ffd800;
+    border: none;
+}
+.contact-section .btn:hover{
+    background: #fff;
+    transition: .5s;
+}
+/* FOOTER SECTION */
+/* ========================== */
+.footer-section{
+    text-align: center;
+}
+.footer-section .copyright{
+    color:#a67f9a;
+    font-size: 1.6rem;
+}
+.footer-section .social-icon li{
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+
+}
+.footer-section .social-icon li a{
+    font-size: 2.5rem;
+    color: #FF00AE;
+}
+
+
